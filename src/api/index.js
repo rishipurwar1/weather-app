@@ -6,7 +6,7 @@ export const fetchCountries = async () => {
 
 export const getWeatherByCountry = async (country) => {
   const res = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${country}&APPID=${process.env.REACT_APP_WEATHER_API_KEY}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${country}&units=metric&APPID=${process.env.REACT_APP_WEATHER_API_KEY}`
   );
   const data = await res.json();
   return data;
