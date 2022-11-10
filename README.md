@@ -1,6 +1,6 @@
 ## Weather App
 
-![Homepage](https://i.imgur.com/h6uiUMn.png)
+![Homepage](https://i.imgur.com/j0CJW59.png)
 
 ## Features
 
